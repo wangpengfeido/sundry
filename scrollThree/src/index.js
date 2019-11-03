@@ -60,7 +60,6 @@ class App {
       }
     });
     this.scrollSensor.on("scroll", event => {
-      console.log(event.scrollTop, event.scrollTop / this.height);
       this.scrollTop = event.scrollTop;
     });
   }
